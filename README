@@ -17,6 +17,8 @@ on a network.
 iplog uses libpcap to read data from the network and can be ported
 to any system that supports pthreads and on which libpcap will function.
 
+In this build are integrated passive OS fingerprinting (p0f)
+
 
 NOTE
 ----
