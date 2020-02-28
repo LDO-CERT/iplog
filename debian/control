@@ -1,0 +1,16 @@
+Source: iplog
+Section: net
+Priority: optional
+Maintainer: Luca Memini <luca@cuore.org>
+Build-Depends: debhelper (>> 3.0.0), libpcap-dev
+Standards-Version: 3.5.2
+
+Package: iplog
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: TCP/UDP/ICMP protocol logger
+ This is a program that will log all TCP/UDP connections. It is
+ an excellent tool for monitoring your machines.  It comes with 
+ an advanced conf file that allows you to determin what and wh-
+ ere you you wish to log.
+ With passive OS fingerprinting patch (p0f, tcp only).

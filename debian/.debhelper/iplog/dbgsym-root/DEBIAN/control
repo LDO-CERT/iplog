@@ -1,0 +1,12 @@
+Package: iplog-dbgsym
+Source: iplog
+Version: 2.2.3-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Luca Memini <luca@cuore.org>
+Installed-Size: 92
+Depends: iplog (= 2.2.3-2)
+Section: debug
+Priority: extra
+Description: Debug symbols for iplog
+Build-Ids: 1b4514bf4ec3a8c68523c664d03ece9632d1cd82

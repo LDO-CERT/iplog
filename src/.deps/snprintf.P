@@ -1,0 +1,4 @@
+snprintf.o: snprintf.c /usr/include/stdc-predef.h ../config.h
+snprintf.c :
+/usr/include/stdc-predef.h :
+../config.h :
